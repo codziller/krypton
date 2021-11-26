@@ -40,7 +40,7 @@ TABLE OF CONTENTS
     }
 
     &.is-theme {
-        background-image: linear-gradient(to bottom, #22005b 0%, #161a31 100%) !important;
+        background-image: linear-gradient(to bottom, #9b7f12 0%, #896F09 100%) !important;
     }
 
     &::after, &::before {
@@ -142,7 +142,7 @@ TABLE OF CONTENTS
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #22005b;
+    background-color: #896F09;
     z-index: -1;
     opacity: 0;
     transition: opacity .35s;

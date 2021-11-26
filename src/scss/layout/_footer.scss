@@ -17,7 +17,7 @@ TABLE OF CONTENTS
 
 .krypton-footer {
     padding: 100px 40px;
-    background: #0f0330;
+    background: $primary;
     text-align: center;
     position: relative;
 
@@ -41,7 +41,7 @@ TABLE OF CONTENTS
             font-family: 'Cabin', sans-serif;
             text-transform: uppercase;
             font-weight: 600;
-            color: $white;
+            color: $black;
             padding: 5px 0;
             font-size: 1.4rem;
             letter-spacing: 3px;
@@ -146,7 +146,7 @@ TABLE OF CONTENTS
                     font-family: 'Cabin', sans-serif;
                     font-weight: 500;
                     font-size: .8rem;
-                    color: $white;
+                    color: $black;
                     padding: 10px 0;
 
                     &:before {
@@ -205,7 +205,7 @@ TABLE OF CONTENTS
         z-index: 2;
 
         a {
-            color: $secondary;
+            color: $black;
         }
     }
 }

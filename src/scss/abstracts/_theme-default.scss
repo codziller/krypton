@@ -19,7 +19,7 @@ TABLE OF CONTENTS
 
 $fullhd-enabled: false;
 
-$primary: #7F00FF;
+$primary: #fddb55;
 $primary-accent: #3f00fc;
 $secondary: #00ff99;
 $secondary-accent: #33ccff;
@@ -76,8 +76,8 @@ $secondary-box-shadow: 0 14px 26px -12px $secondary-shadow-from, 0 4px 23px 0px 
 
 @mixin primary-gradient-right {
     background: $primary;
-    background: -webkit-linear-gradient(to right, $primary, $primary-accent) !important;
-    background: linear-gradient(to right, $primary, $primary-accent) !important;
+    // background: -webkit-linear-gradient(to right, $primary, $primary-accent) !important;
+    // background: linear-gradient(to right, $primary, $primary-accent) !important;
 }
 
 @mixin secondary-gradient-top {
